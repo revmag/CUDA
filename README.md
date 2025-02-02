@@ -1,4 +1,4 @@
-###CUDA Learning Journey
+# CUDA Learning Journey
 
 Challenge for 100 Days of CUDA!
 
