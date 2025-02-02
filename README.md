@@ -9,8 +9,6 @@ Let's get started
 
 | Day   | Files & Summaries                                                                 |
 |-------|----------------------------------------------------------------------------------|
-| day1  | `printAdd.cu`: printed indices for 1d vector, learnt the concept of how GPU run tasks, in order of thread |
-        |   block and grid, threads get executed in warps of 32 threads, even if number of  |
-        |   threads per block is higher ( not sure then why number of threads in a grid is 256)   |
-|       | `addition.cu`: added GPU vector by copying from CPU to GPU and then back from GPU to CPU |
-| day2  | `function.cu`: used __device__ function in kernel ( it calculates things in GPU only)    |
+| day1  | `printAdd.cu`: Printed indices for 1D vector, learned the concept of how GPUs run tasks in order of thread block and grid. Threads get executed in warps of 32 threads, even if the number of threads per block is higher (not sure why the number of threads in a grid is 256). |
+|       | `addition.cu`: Added GPU vector by copying from CPU to GPU and then back from GPU to CPU. |
+| day2  | `function.cu`: Used `__device__` function in the kernel (it calculates things on the GPU only). |
