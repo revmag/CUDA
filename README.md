@@ -12,3 +12,4 @@ Let's get started
 | day1  | `printAdd.cu`: Printed indices for 1D vector, learned the concept of how GPUs run tasks in order of thread block and grid. Threads get executed in warps of 32 threads, even if the number of threads per block is higher (not sure why the number of threads in a grid is 256). |
 |       | `addition.cu`: Added GPU vector by copying from CPU to GPU and then back from GPU to CPU. |
 | day2  | `function.cu`: Used `__device__` function in the kernel (it calculates things on the GPU only). |
+| day3  |  'matrix_add.cu' : added 2 matrices of size 1024*16,1024*16 by dividing into row/column indices to threads
